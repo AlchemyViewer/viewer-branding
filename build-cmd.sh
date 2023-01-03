@@ -37,9 +37,7 @@ mkdir -p "$stage/LICENSES"
 #Create the staging debug and release folders
 mkdir -p "$stage_pkg"
 
-pushd "$PKG_SOURCE_DIR"
-    cp -a assets/* "$stage_pkg"
+cp -a assets/* "$stage_pkg"
 
-    # Copy License
-    echo "Copyright (c) 2023 Alchemy Development Group. All Rights Reserved." >> "$stage/LICENSES/branding.txt"
-popd
+# Copy License
+echo "Copyright (c) 2023 Alchemy Development Group. All Rights Reserved." >> "$stage/LICENSES/branding.txt"
