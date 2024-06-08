@@ -3,8 +3,10 @@
 <map>
     <key>package_description</key>
     <map>
+      <key>canonical_repo</key>
+      <string>https://github.com/AlchemyViewer/viewer-branding</string>
       <key>copyright</key>
-      <string>Copyright (c) 2023 Alchemy Development Group</string>
+      <string>Copyright (c) 2024 Alchemy Development Group</string>
       <key>description</key>
       <string>Alchemy Branding Material</string>
       <key>license</key>
